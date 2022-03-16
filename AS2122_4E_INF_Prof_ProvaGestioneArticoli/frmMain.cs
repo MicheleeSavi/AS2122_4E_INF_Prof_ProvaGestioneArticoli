@@ -48,7 +48,7 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
                     // ... lstElenco.Items.Add(a.Visualizzati()); 
                     break;
             }
-        }
+        } 
 
         private void lstElenco_SelectedIndexChanged(object sender, EventArgs e)
         {
