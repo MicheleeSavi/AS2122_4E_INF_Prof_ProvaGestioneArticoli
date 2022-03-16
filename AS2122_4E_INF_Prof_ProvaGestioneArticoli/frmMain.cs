@@ -33,6 +33,7 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
                 // aggiungi l'articolo all'elenco di articoli
                 // TODO: (1) aggiungere l'articolo creato dai dati di frmArticoli nella lista articoli
                 Articolo a = new Articolo(f.Codice, f.Descrizione, f.UnitaMisura, f.Prezzo);
+                articoli.Add(a);
                 
                 lblArticoliInseriti.Text = $"Articoli ({articoli.Count})";
             }
@@ -45,7 +46,7 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
             {
                 case "Visualizza articoli":
                     // TODO: (2) aggiungere visualizzazione articoli inseriti nella listbox
-                    // ... lstElenco.Items.Add(a.Visualizzati()); 
+                    // ...lstElenco.Items.Add(a.Visualizzati()); 
                     break;
             }
         } 
