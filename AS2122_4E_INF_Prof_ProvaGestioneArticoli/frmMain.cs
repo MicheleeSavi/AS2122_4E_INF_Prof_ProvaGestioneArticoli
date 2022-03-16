@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
+namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli 
 {
     public partial class frmMain : Form
     {
