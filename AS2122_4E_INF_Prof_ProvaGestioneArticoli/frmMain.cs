@@ -37,20 +37,17 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
                 
                 lblArticoliInseriti.Text = $"Articoli ({articoli.Count})";
             }
-
-            lblDescrizione.Text = f.Descrizione;
-            lblUnitaMisura.Text = f.UnitaMisura;
-            lblPrezzo.Text = Convert.ToString(f.Prezzo);
         }
 
         private void btnVisualizza_Click(object sender, EventArgs e)
         {
+            Articolo a = new Articolo();
             lstElenco.Items.Clear();
             switch (cmbVisualizza.Text)
             {
                 case "Visualizza articoli":
                     // TODO: (2) aggiungere visualizzazione articoli inseriti nella listbox
-                    // ...lstElenco.Items.Add(a.Visualizzati()); 
+                    lstElenco.Items.Add(a.Visualizzati()); 
                     break;
             }
         } 
