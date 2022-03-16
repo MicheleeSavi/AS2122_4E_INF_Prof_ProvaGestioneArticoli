@@ -9,12 +9,14 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
     class Articolo
     {
         // TODO: (8) aggiungere attributi privati di Articolo
-        public string Descrizione { set; get; }
-        public string UnitaMisura { set; get; }
-        public string Prezzo { set; get; }
+        private string descrizione;
+        private string unitaMisura;
+        private string prezzo;
          
         // TODO: (9) aggiungere property di sola lettura dei dati necessari all'esterno di Articolo
-        // ...
+        public string Descrizione { get; }
+        public string UnitaMisura { get; }
+        public string Prezzo { get; }
         public Articolo(int codice, string descrizione, string unitaMisura, double prezzo)
         {
             // TODO: (10) impostazione costruttore classe Articolo come utilizzato da frmMain
