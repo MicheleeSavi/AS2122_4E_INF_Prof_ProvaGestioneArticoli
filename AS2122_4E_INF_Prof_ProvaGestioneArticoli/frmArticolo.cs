@@ -15,6 +15,7 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
         DialogResult status = DialogResult.Cancel;
 
         // TODO: (5) aggiungere attributi privati dei dati inseriti nella frmArticoli
+        private int codice;
         private string descrizione;
         private string unitaMisura;
         private double prezzo;
@@ -22,9 +23,10 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
         public DialogResult Status { get { return status; } }
 
         // TODO: (6) aggiungere property di sola lettura dei dati inseriti nella frmArticoli per l'utilizzo in frmMain
+        public int Codice { get; }
         public string Descrizione { get; }
         public string UnitaMisura { get; }
-        public string Prezzo { get; }
+        public double Prezzo { get; }
         public frmArticolo()
         {
             InitializeComponent();
