@@ -27,7 +27,7 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
             frmArticolo f = new frmArticolo();
 
             f.ShowDialog();
-
+             
             if (f.Status == DialogResult.OK)
             {
                 // aggiungi l'articolo all'elenco di articoli
