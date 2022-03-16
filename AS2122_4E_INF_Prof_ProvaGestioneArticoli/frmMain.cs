@@ -37,6 +37,10 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
                 
                 lblArticoliInseriti.Text = $"Articoli ({articoli.Count})";
             }
+
+            //lblDescrizione.Text = f.Descrizione;
+            //lblUnitaMisura.Text = f.UnitaMisura;
+            //lblPrezzo.Text = Convert.ToString(f.Prezzo);
         }
 
         private void btnVisualizza_Click(object sender, EventArgs e)
