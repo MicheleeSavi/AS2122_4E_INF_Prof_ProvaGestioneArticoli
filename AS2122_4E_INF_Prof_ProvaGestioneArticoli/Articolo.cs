@@ -12,7 +12,7 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
         public string Descrizione { set; get; }
         public string UnitaMisura { set; get; }
         public string Prezzo { set; get; }
-
+         
         // TODO: (9) aggiungere property di sola lettura dei dati necessari all'esterno di Articolo
         // ...
         public Articolo(int codice, string descrizione, string unitaMisura, double prezzo)
